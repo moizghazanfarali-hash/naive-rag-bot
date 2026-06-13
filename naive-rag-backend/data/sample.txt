@@ -1,0 +1,16 @@
+Retrieval-Augmented Generation (RAG) is a powerful approach that combines information retrieval with language models to provide accurate, grounded responses.
+
+RAG systems work by retrieving relevant documents or passages from a knowledge base and using them as context for the language model to generate responses. This approach significantly improves the quality and relevance of generated content.
+
+Key benefits of RAG systems include:
+1. Improved accuracy through grounding in real documents
+2. Reduced hallucination by using retrieved facts
+3. Better handling of domain-specific queries
+4. More transparent and verifiable responses
+
+The RAG pipeline typically consists of three main components:
+- Document Store: Stores and indexes documents for efficient retrieval
+- Retriever: Finds relevant documents based on semantic similarity
+- Generator: Uses retrieved documents to generate the final response
+
+RAG systems have applications in question-answering, customer support, document analysis, and many other domains.
